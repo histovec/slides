@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -43,16 +43,16 @@
 				<section>
 					<p>
 						<a href="http://histovec.fr/mock-up/vendeur_modal_fiche.html">
-							<img width="500" style="background-color:white;" data-src="img/histovec.svg" alt="HistoVec"/>
+							<img width="500" style="background-color:white; border: 0;" data-src="img/histovec.svg" alt="HistoVec"/>
 						</a>
 					</p>
 					<p>
 						protéger les acheteurs de véhicules d’occasion <br>
 						Richard Violet <br>
 
-						<img height="100" data-src="img/dsr_carre.png" alt="Direction de la Sécurité Routière"/>
-						<img height="100" data-src="img/logo_DSIC.png" alt="DSIC"/>
-						<img height="100" data-src="img/logo_lab.jpg" alt="Le Lab"/>
+						<img height="100" style="border: 0;" data-src="img/dsr_carre.png" alt="Direction de la Sécurité Routière"/>
+						<img height="100" style="background-color:white; border: 0" data-src="img/logo_dsic.png" alt="DSIC"/>
+						<img height="100" style="border: 0;" data-src="img/logo_lab.jpg" alt="Le Lab"/>
 						
 					</p>
 				</section>
@@ -60,185 +60,111 @@
 				<section>
 					<section data-markdown>
 						<textarea data-template>
-						## Le problème des véhicules d'occasion
-						### des acheteurs abusés
-						- Réparations coûteuses, véhicules non assurables (47 % de fraude dans les transactions de véhicules d’occasion – source DGCCRF, 2015)
-						### des véhicules dangereux remis en circulation
+							## Le problème des véhicules d'occasion
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+						## des acheteurs abusés
+
+						- réparations coûteuses
+						- véhicules non assurables 
+						- 47 % de fraude dans les transactions de véhicules d’occasion – source DGCCRF, 2015
+						</textarea>
+					</section>
+
+					<section data-markdown>
+						<textarea data-template>
+						## des véhicules dangereux remis en circulation
+							
 						- Oise : un expert véreux remet plus de 1000 véhicules dangereux en circulation
 						- cité dans la mesure 16 CISR 9 janvier 2018
 						</textarea>
 					</section>
+
 					<section data-markdown>
 						<textarea data-template>						
-						## Des solutions existantes insuffisantes
-						
-						<img heigth="100" data-src="https://autorigin.com/images/logo.png" alt="Autorigin"/>
-						<img heigth="100" data-src="https://media.autoviza.fr/design/frontend/images/autoviza-logo.svg" alt="Autoviza"/>
-						
+						## des solutions existantes insuffisantes
+							
+						<img height="150" style="border: 0;" data-src="https://autorigin.com/images/logo.png" alt="Autorigin"/>
+						<img height="75" style="border: 0;"data-src="https://media.autoviza.fr/design/frontend/images/autoviza-logo.svg" alt="Autoviza"/>
+							
 						- payant ou incomplet
 						- sources non citées, cadre légal ?
 
 						</textarea>
 					</section>
+				</section>
+				<section>
 					<section data-markdown>
 						<textarea data-template>
-							## Défi Prévisecours / EIG #2
+							## Proposition HistoVec
 
-							- 10 mois
-							- 2 profils
-								- Full Stack Developer / Guillaume Lancrenon
-								- Data Scientist / Tiphaine Phe-Neau
-							- <a href="https://www.etalab.gouv.fr" target="_blank">Etalab</a> et <a href="https://www.interieur.gouv.fr/" target="_blank">Ministère de l'Intérieur</a> / MGMSIC
-							- Plus de <a target="_blank" href="http://dai.ly/x6fp47d">détails sur la 2e promotion EIG en vidéo</a> 
+							- établir un climat de **confiance** entre l'acheteur et le vendeur
+							- en fournissant des information **officielles** du véhicule
 						</textarea>
 					</section>
-					<section data-markdown>
+				</section>
+				<section>
+					<section data-background="https://media.giphy.com/media/3o6MbtwmlPoiwFYURq/giphy.gif" data-markdown>
 						<textarea data-template>
-							## <img width="500" style="background-color:#222222;"  data-src="img/eig_logo.png" alt="EIG logo"> 
-
-							<iframe frameborder="0" width="800" height="448" src="http://www.dailymotion.com/embed/video/x6fp47d" allowfullscreen allow="autoplay"></iframe>
+							## cas d'usage - vendeur conciliant
+					
 						</textarea>
 					</section>
 					<section id="pitch" data-markdown>
 						<textarea data-template>
-							#### C'est sympa tout ça mais...
-
-							## Est ce possible?
-
-							### en 10 mois
+							#### de l'annonce ...
 							<p>
-								<span style="float:left" class="fragment">
-									- 2 personnes<br>
-									- Partir de rien<br>
+								<span class="fragment">
+								monsieur Durand trouve un **véhicule d’occasion** sur un site de vente. 
 								</span> 
-								<span style="float:left" class="fragment">
-									- Récupérer des données administratives et ouvertes <br>
+								<span class="fragment">
+								il contacte le vendeur.
+									<br/>
 								</span> 
-								<span style="float:left" class="fragment">
-									- Flux de normalisation et pérennisation<br>
+								<span class="fragment">
+								 Le véhicule se trouve à **plus de 500km**, il hésite à se déplacer.
 								</span> 
-								<span style="float:left" class="fragment">
-									- Sortir un produit utile et utilisable
-								</span>
 							</p>
 						</textarea>
 					</section>
-					<section data-background="https://media2.giphy.com/media/kKdgdeuO2M08M/giphy.gif">
+					<section id="pitch" data-markdown>
+						<textarea data-template>
+							#### ... à la confiance
+							<p>
+								<span  class="fragment">
+								Pour établir la confiance, il demande au vendeur s’il connaît le site **HistoVec**.
+									<br/>
+								</span> 
+								<span class="fragment">
+								Il lui explique que le site de l’Administration permet d’établir un **rapport officiel** auquel il pourra lui donner un **accès ponctuel**
+									<br/>
+								</span> 
+							</p>
+						</textarea>
+					</section>					
+
+
+					<section data-background="/mock-up/vendeur_modal_fiche.html" data-markdown>
+						<textarea data-template>
+							#### Maquette
+							<iframe id="freshwidget-frame" src="/mock-up/vendeur_modal_fiche.html" scrolling="auto" allowtransparency="true" style="height: 500px; width: 100%;  -ms-zoom: 0.50; -moz-transform: scale(0.50);  -o-transform: scale(0.50); -webkit-transform: scale(0.50);" frameborder="0"> </div></iframe>
+						</textarea>
 					</section>
-				</section>
 
 				<section>
 					<section data-markdown>
 						<textarea data-template>
-							## Prévisecours... <br>le début !
-
-							
+							## la démarche
 						</textarea>
 					</section>
-					<section data-markdown>
-						<textarea data-template>
-							### 1. Données interventions 
-
-							<img width="600" data-src="img/interventions.png" alt="Screen interventions">
-
-							- Vérification et analyse
-							- Aggrégation
-							- Anonymisation
-						</textarea>
-					</section>
-					<section data-markdown>
-						<textarea data-template>
-							### 2. Récupération open data 
-
-							<img width="600" data-src="img/opendata.png" alt="Screen opendata">
-
-							- INSEE population, ménages, scolarisation, IDH2
-							- Pollens, pollution, transports
-							- Calendrier, météo
-						</textarea>
-					</section>
-					
-					<section data-markdown>
-						<textarea data-template>
-							### 3. Feature engineering / variables
-							<img width="600" data-src="img/featuring.png" alt="Screen feature engineering">
-
-							- Création de features après discussions métiers
-							- Jointures avec les données interventions
-							
-						</textarea>
-					</section>
-					<section data-markdown>
-						<textarea data-template>
-							## Alors, <br> au bout d'un mois <br>a-t-on quelque chose ?
-						</textarea>
-					</section>
-					<section data-markdown>
-						<textarea data-template>
-							### 4. Machine learning : modèles v0
-
-							<img width="600" data-src="img/mling.png" alt="Prévisecours models">
-
-							- Model farming 
-							- ROC AUC: 0.918 sans tweaking
-						</textarea>
-					
-					</section>
-					<section data-markdown>
-						<textarea data-template>
-							### 5. POC visualisation
-
-							<img width="650" data-src="img/map.png" alt="Screen interventions">
-						</textarea>
-					</section>
-
-					<section data-markdown>
-						<textarea data-template>
-							### 5. POC visualisation
-							#### Interventions par commune
-							<iframe id="freshwidget-frame" src="https://algo.previsecours.fr/dip/api/webapps/view?projectKey=PRVISECOURSVISUALISATION&webAppId=kwi1cbb&apiKey=nJxRZkRr0NK7sBS3gOSBKIVipz8Q5G6W" scrolling="auto" allowtransparency="true" style="height: 500px; width: 100%;" frameborder="0"> </div></iframe>
-						</textarea>
-					</section>
-
-					<section data-markdown>
-						<textarea data-template>
-							### 5. POC visualisation
-							#### Evolution des interventions par commune
-							<iframe id="freshwidget-frame" src="https://algo.previsecours.fr/dip/api/webapps/view?projectKey=PRVISECOURSVISUALISATION&webAppId=W0kS5vF&apiKey=932QkDr6PUcppTtKPUfoDWlOM8BHhSz6" scrolling="auto" allowtransparency="true" style="height: 500px; width: 100%;" frameborder="0"> </div></iframe>
-						</textarea>
-					</section>
-
-				
-					<section data-markdown>
-						<textarea data-template>
-							## Workflow
-
-							<img width="850" data-src="img/workflow.png" alt="Screen workflow">
-
-						</textarea>
-					</section>
-				</section>
-				<section>
+						
 					<section id="timeline" data-markdown>
 						<textarea data-template>
-							## Timeline au bout de <br>1 mois
-							<p>
-								<span style="float:left" class="fragment">
-									1. Données métiers - 1 semaine
-								</span> 
-								<span style="float:left" class="fragment">
-									2. Open data - 1 semaine pour la base + en cours
-								</span> 
-								<span style="float:left" class="fragment">
-									3. Feature engineering sur la base -  1 semaine
-								</span> 
-								<span style="float:left" class="fragment">
-									4. Model farming - 1 semaine en //
-								</span> 
-								<span style="float:left" class="fragment">
-									5. POC visualisation - 1 semaine en //
-								</span> 
-							</p>
+							### étapes
+							
+							<img src="img/etapes.png" style="border: 0;">
 						</textarea>
 					</section>
 
